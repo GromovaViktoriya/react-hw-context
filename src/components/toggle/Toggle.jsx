@@ -21,7 +21,7 @@ export const Toggle = () => {
                 id="toggler"
                 type="checkbox"
                 onClick={onChangeTheme}
-                checked={theme !== themes.dark}
+                checked={theme !== themes.light}
                 readOnly
             />
             <span className={s.slider}/>
