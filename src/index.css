@@ -1,0 +1,16 @@
+:root[data-theme="light"] {
+    --background-color: #fafafa;
+    --color: #1f2937;
+    --text-color: #4b5563;
+}
+
+:root[data-theme="dark"] {
+    --background-color: #2b3e51;
+    --color: #ffffff;
+    --text-color: #9ca3af;
+}
+
+body {
+    background: var(--background-color);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
